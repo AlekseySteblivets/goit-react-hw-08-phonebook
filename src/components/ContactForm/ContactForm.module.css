@@ -1,0 +1,9 @@
+.container {
+    display: table-caption;
+    border: 1px;
+}
+
+.label {
+display: inline-block;
+height:60px;
+}
