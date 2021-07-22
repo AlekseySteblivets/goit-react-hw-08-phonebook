@@ -9,6 +9,7 @@ import {
     REGISTER
 } from 'redux-persist';
 import phonebooksReducer from "./phonebooks-reducer";
+import { authReducer } from "../auth";
 
 const middleware = [...getDefaultMiddleware({
     serializableCheck: {
@@ -22,6 +23,7 @@ const middleware = [...getDefaultMiddleware({
 const store = configureStore({
     reducer: {
         contacts: phonebooksReducer,
+        auth: authReducer,
     },
     middleware,
     devTools: process.env.NODE_ENV === 'development',
