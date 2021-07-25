@@ -10,7 +10,7 @@ export const fetchContact = () => async dispatch => {
         const { data } = await axios.get('./contacts');
         dispatch(phonebooksActions.fetchContactSuccess(data));
     } catch (error) {
-        dispatch(phonebooksActions.fetchContactError(error));
+        dispatch(phonebooksActions.fetchContactError(error.message));
     }
     // axios
     //     .get('./contacts')
@@ -29,7 +29,7 @@ export const addContact = (name, number) => dispatch => {
         .post('/contacts', contact)
         .then(({ data }) =>
             dispatch(phonebooksActions.addContactSuccess(data)))
-        .catch(error => dispatch(phonebooksActions.addContactError(error)));
+        .catch(error => dispatch(phonebooksActions.addContactError(error.message)));
 };
 
 export const deleteContact = id => dispatch => {
@@ -38,6 +38,6 @@ export const deleteContact = id => dispatch => {
     axios
         .delete(`/contacts/${id}`)
         .then(() => dispatch(phonebooksActions.deleteContactSuccess(id)))
-        .catch(error => dispatch(phonebooksActions.deleteContactError(error)));
+        .catch(error => dispatch(phonebooksActions.deleteContactError(error.message)));
 
 }

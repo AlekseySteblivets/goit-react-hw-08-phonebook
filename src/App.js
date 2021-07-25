@@ -15,6 +15,7 @@ import RegisterView from './views/RegisterView';
 import LoginView from './views/LoginView';
 import Contacts from './views/Contacts';
 import AppBar from './components/UserMenu/AppBar';
+import { authOperations } from './redux/auth';
 
 
 
@@ -30,7 +31,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.props.fetchContact();
+    this.props.onGetCurrentUser();
   }
 
   render() {
@@ -57,12 +58,18 @@ class App extends Component {
 
 }
 
-const mapStateToProps = state => ({
-  isloadingContacts: getIsloadingContacts(state),
-})
 
-const mapDispatchToProps = dispatch => ({
-  fetchContact: () => dispatch(fetchContact())
-})
+const mapDispatchToProps = {
+  onGetCurrentUser: authOperations.getCurrentUser
+}
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(null, mapDispatchToProps)(App);
+
+// const mapStateToProps = state => ({
+//   isloadingContacts: getIsloadingContacts(state),
+// })
+
+
+// const mapDispatchToProps = dispatch => ({
+//   fetchContact: () => dispatch(fetchContact())
+// })
