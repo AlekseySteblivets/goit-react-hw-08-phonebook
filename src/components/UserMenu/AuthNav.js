@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 const AuthNav = () => (
     <div>
-        <NavLink to="/register" exact> регистрация</NavLink>
-        <NavLink to="/login"> логин</NavLink>
+        <NavLink to="/register" exact> Регистрация</NavLink>
+        <NavLink to="/login"> Логин</NavLink>
     </div>
 )
 

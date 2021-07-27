@@ -6,8 +6,17 @@ import { connect } from 'react-redux';
 import { authSelectors } from '../../redux/auth';
 
 
+const styles = {
+    header: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alingItems: 'center',
+        borderBotton: '1px, solid #2A363B',
+    },
+}
+
 const AppBar = ({ isAuthenticated }) => (
-    <header>
+    <header style={styles.header} >
         <Navigation />
         {isAuthenticated ? <UserMenu /> : <AuthNav />}
     </header>

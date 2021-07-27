@@ -1,7 +1,7 @@
 import React from "react";
 
 const HomeView = () => {
-    return <h1>Это видно при открытии приложения, любому пользователю</h1>
+    return <h1>Welcome to the phone book!</h1>
 }
 
 
