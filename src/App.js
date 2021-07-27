@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Switch, Route } from "react-router-dom";
 
-import ContactForm from './components/ContactForm';
-import Filter from './components/Filter';
-import ContactList from './components/ContactList';
-import { getIsloadingContacts, fetchContact } from './redux/phonebooks';
+// import ContactForm from './components/ContactForm';
+// import Filter from './components/Filter';
+// import ContactList from './components/ContactList';
+// import { getIsloadingContacts, fetchContact } from './redux/phonebooks';
 // import * as phonebookOperations from './redux/phonebooks/phonebooks-operations';
 // import * as phonebookSelectors from './redux/phonebooks/phonebooks-selectors';
 
@@ -44,13 +44,6 @@ class App extends Component {
           <Route path="/login" component={LoginView} />
           <Route path="/contacts" component={Contacts} />
         </Switch>
-        {/* <h1>Phonebook</h1>
-        <ContactForm />
-
-        <h2>Contacts</h2>
-        <Filter />
-        {this.props.isloadingContacts && <h1>loading...</h1>}
-        <ContactList /> */}
 
       </div>
     )
