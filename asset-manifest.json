@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.db6717c1.chunk.js",
+    "main.js.map": "/goit-react-hw-08-phonebook/static/js/main.db6717c1.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-08-phonebook/static/js/runtime-main.f744b670.js",
+    "runtime-main.js.map": "/goit-react-hw-08-phonebook/static/js/runtime-main.f744b670.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/goit-react-hw-08-phonebook/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.c321e664.chunk.js": "/goit-react-hw-08-phonebook/static/js/2.c321e664.chunk.js",
+    "static/js/2.c321e664.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/2.c321e664.chunk.js.map",
+    "static/css/3.9a44464f.chunk.css": "/goit-react-hw-08-phonebook/static/css/3.9a44464f.chunk.css",
+    "static/js/3.793f861e.chunk.js": "/goit-react-hw-08-phonebook/static/js/3.793f861e.chunk.js",
+    "static/js/3.793f861e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/3.793f861e.chunk.js.map",
+    "static/js/4.dceb3159.chunk.js": "/goit-react-hw-08-phonebook/static/js/4.dceb3159.chunk.js",
+    "static/js/4.dceb3159.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/4.dceb3159.chunk.js.map",
+    "static/js/5.4836135d.chunk.js": "/goit-react-hw-08-phonebook/static/js/5.4836135d.chunk.js",
+    "static/js/5.4836135d.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/5.4836135d.chunk.js.map",
+    "static/js/6.62bad1b9.chunk.js": "/goit-react-hw-08-phonebook/static/js/6.62bad1b9.chunk.js",
+    "static/js/6.62bad1b9.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/6.62bad1b9.chunk.js.map",
+    "index.html": "/goit-react-hw-08-phonebook/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/3.9a44464f.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/3.9a44464f.chunk.css.map",
+    "static/js/2.c321e664.chunk.js.LICENSE.txt": "/goit-react-hw-08-phonebook/static/js/2.c321e664.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f744b670.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.c321e664.chunk.js",
+    "static/js/main.db6717c1.chunk.js"
+  ]
+}
